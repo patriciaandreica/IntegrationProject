@@ -129,10 +129,10 @@ question_7 = int(input("7) On a scale of 1-5, 1 being the lowest,"
 if not question_7 / 1 != 1:
     score += 2
 # Modulus operator; divides two numbers & returns remainder / Input is 2
-elif question_7 % 2 + 2 == question_7:
+elif question_7 % 3 == question_7:
     score += 2
 # Multiplication / Subtraction / Input is 3
-elif question_7 * 2 - 3 == 3:
+elif question_7 * 3 - 6 == 3:
     score += 6
 # Power raised / Input is 4
 # Keyword OR is a logical operator, only one of the conditions must be true in
