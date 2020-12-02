@@ -100,7 +100,7 @@ def multiple_choice_calc_score(user_input):
     return function_score_1
 
 
-def yes_or_no(user_input_2):
+def yes_or_no_question(user_input_2):
     """The purpose of this function is to update the user's score with
     the appropriate value depending on user's input.
 
@@ -184,7 +184,7 @@ def main():
     # This will get passed as an argument to call the specific function.
     user_input_2 = input("1) Do you enjoy giving presentations? \nEnter "
                          "either 'yes' or 'no': ")
-    overall_score += yes_or_no(user_input_2)
+    overall_score += yes_or_no_question(user_input_2)
     # This count controlled For loop iterates over the question list.
     # Function len() takes the list as a parameter and returns the
     # number of elements in the list.
